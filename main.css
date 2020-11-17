@@ -156,7 +156,7 @@ input[class^='btn-']:hover {
     margin-top: 2rem; }
   .body-work i {
     font-size: 1.6rem;
-    margin-top: 0.6rem; }
+    margin-top: 0.5rem; }
 
 a {
   text-decoration: none;
@@ -320,21 +320,23 @@ img {
 
 #main-footer1 {
   color: #fff;
-  height: 4rem; }
+  height: 5.2rem; }
   #main-footer1 .footer-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 4rem; }
+    #main-footer1 .footer-content p {
+      margin-bottom: -1rem; }
     #main-footer1 .footer-content .social .fa {
-      margin-right: 1rem;
+      margin-right: 1.2rem;
       border: 2px #fff solid;
       border-radius: 50%;
       height: 35px;
       width: 35px;
       text-align: center;
       font-size: 1.5rem;
-      padding: 0.5rem;
+      padding: 0.8rem;
       padding-top: 0.8rem; }
       #main-footer1 .footer-content .social .fa:hover {
         color: #ffbc00; }

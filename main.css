@@ -448,6 +448,8 @@ img {
                     .footer-content {
                         font-size: inherit;
                     }
+   #main-footer .footer-content .social .fa {
+     margin-right: 0.1rem;
                 }
 
 @media (max-width: 380px) {

@@ -444,7 +444,11 @@ img {
   margin-bottom: 2rem;
   text-align: center; }
 
-
+ @media(max-width:250px) {
+                    .footer-content {
+                        font-size: inherit;
+                    }
+                }
 
 @media (max-width: 380px) {
   .items {

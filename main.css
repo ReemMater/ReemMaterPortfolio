@@ -35,6 +35,7 @@
   .btn-contact:hover {
     color: #ffbb00e5;
     background: rgba(161, 161, 161, 0.3); }
+
 button[class^='btn-']:hover,
 a[class^='btn-']:hover,
 input[class^='btn-']:hover {

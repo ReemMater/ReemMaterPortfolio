@@ -15,6 +15,8 @@
             // https://dashboard.emailjs.com/admin/integration
             emailjs.init('user_0bRnhTbxcwyD8TiLUWbpp');
         })();
+        
+  
     </script>
     <script type="text/javascript">
         window.onload = function() {
@@ -31,6 +33,10 @@
                     });
             });
         }
+              function confirmInput() {
+  fname = document.forms[0].fname.value;
+  alert("Hello " + from_name + "Your message send successfully");
+}
     </script>
 
     <title>Reem Mater | Front End Developer</title>
@@ -57,7 +63,7 @@
                     <hr class="section-title-line">
                     <p class="lead">Here you can reach me..</p>
                     <p>Leave a message</p>
-                    <form id="contact-form" class="form" action="thank-you.html">
+                    <form id="contact-form" class="form" onsubmit="confirmInput()" action="https://reemmater.github.io/ReemMaterPortfolio/thank-you.html">
                         <input type="hidden" name="contact_number">
                         <div class="text-fields">
                             <label class="label-input">Name:</label>

@@ -242,8 +242,9 @@ img {
     margin: 0.5rem auto; }
   #home-a .specials {
     margin-top: 3rem;
+    justify-content: center;
     display: grid;
-    grid-gap: 1rem;
+    //grid-gap: 1rem;
     grid-template-columns: repeat(3, 1fr); }
     #home-a .specials .fa {
       position: relative;

@@ -456,18 +456,9 @@ img {
     #contact-a .form .text-fields .text-input {
       font-size: 15px;
       max-width: 75%; }
-}
-  
-  
- @media(max-width:250px) {
-                    .footer-content {
-                        font-size: inherit;
-                    }
-   #main-footer .footer-content .social .fa {
+  #main-footer .footer-content .social .fa {
      margin-right: 0.1rem;
                 }
-}
-
 
   #main-nav {
     margin: auto;
@@ -486,4 +477,5 @@ img {
   .body-work i {
     font-size: 1.4rem;
     margin-top: 0.5rem; }
+}
 /*# sourceMappingURL=main.css.map */

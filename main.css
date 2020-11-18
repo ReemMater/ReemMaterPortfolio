@@ -147,6 +147,8 @@ input[class^='btn-']:hover {
         border-radius: 50%; }
         .items .item .item-text .item-text-category i {
           color: #000; }
+  .items .item .item-text .item-text-title {
+        font-size: 2rem; }
 
 * {
   margin: 0;

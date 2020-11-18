@@ -92,7 +92,7 @@ input[class^='btn-']:hover {
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3); }
   .items .item {
-    margin: 1rem;
+    margin: 0.5rem;
     color: #f4f4f4; }
     .items .item .item-image {
       padding-bottom: 0.8rem;

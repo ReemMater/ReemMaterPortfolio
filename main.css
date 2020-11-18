@@ -437,4 +437,30 @@ img {
   margin-bottom: 2rem;
   text-align: center; }
 
+
+
+@media (max-width: 380px) {
+  #contact-a .form {
+    width: 100%; }
+    #contact-a .form .text-fields .text-input {
+      font-size: 15px;
+      max-width: 75%; }
+
+  #main-nav {
+    margin: auto;
+    justify-content: center; }
+    #main-nav li {
+      padding: 1rem 0.1rem; }
+
+  .body-all ul li a, .body-about ul li a {
+    font-size: 0.9rem;
+    margin: 0.5rem;
+    margin-top: 2rem; }
+  .body-work ul li a {
+    font-size: 1.4rem;
+    margin: 0.5rem;
+    margin-top: 2rem; }
+  .body-work i {
+    font-size: 1.4rem;
+    margin-top: 0.5rem; }
 /*# sourceMappingURL=main.css.map */

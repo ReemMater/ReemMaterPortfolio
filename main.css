@@ -22,7 +22,19 @@
 .btn-dark {
   color: #f4f4f4;
   background: #333; }
-
+.btn-contact {
+  display: inline-block;
+  padding: 0.5rem 2.5rem;
+  transition: all 0.5s;
+  border: 1px solid #f4f4f444;
+  font-size: 1.1rem;
+  cursor: pointer;
+  background-color: #333;
+  border-radius: 5px;
+  color: #ffbc00; }
+  .btn-contact:hover {
+    color: #ffbb00e5;
+    background: rgba(161, 161, 161, 0.3); }
 button[class^='btn-']:hover,
 a[class^='btn-']:hover,
 input[class^='btn-']:hover {

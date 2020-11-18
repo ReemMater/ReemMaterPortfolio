@@ -30,6 +30,9 @@
                         console.log('FAILED...', error);
                     });
                 confirm("you Message send Successfully");
+                   document.getElementById('name').value = '';
+                document.getElementById('mail').value = '';
+                document.getElementById('message').value = '';
             });
         }
     </script>
@@ -63,15 +66,15 @@
                         <div class="text-fields">
                             <!--<?php echo((!empty($errorMessage)) ? $errorMessage : '') ?>-->
                             <label class="label-input">Name:</label>
-                            <input type="text" class="text-input name-input" name="from_name" autocomplete="off">
+                            <input type="text" class="text-input name-input" name="from_name" id="name" autocomplete="off">
                         </div>
                         <div class="text-fields">
                             <label class="label-input">Email:</label>
-                            <input type="email" class="text-input email-input" name="mail" autocomplete="off">
+                            <input type="email" class="text-input email-input" name="mail" id="mail" autocomplete="off">
                         </div>
                         <div class="text-fields1">
                             <label class="label-input">Message:</label>
-                            <textarea class="text-input Message-input" name="message"></textarea>
+                            <textarea class="text-input Message-input" name="message" id="message"></textarea>
                         </div>
                         <button type="submit" value="Send" class="button-contact btn-contact">Send</button>
                 </div>

@@ -89,7 +89,7 @@ input[class^='btn-']:hover {
 
 .items {
   display: grid;
-  grid-gap: 0.1rem;
+  grid-gap: 0.5rem;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3); }
   .items .item {
@@ -106,11 +106,10 @@ input[class^='btn-']:hover {
         height: 200px; }
       .items .item .item-image .item-text-wrap {
         position: absolute;
-        padding-right: 10px;
-        padding-left: 10px;
-        top: 40%;
-        left: 7%;
-        font-size: 2rem;
+        margin:auto;
+       // top: 40%;
+        //left: 7%;
+        font-size: 2.5rem;
         color: #00000f;
         font-weight: bold;
         z-index: 3;

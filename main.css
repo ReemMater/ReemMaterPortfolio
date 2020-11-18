@@ -107,7 +107,7 @@ input[class^='btn-']:hover {
       .items .item .item-image .item-text-wrap {
         position: absolute;
         margin:auto;
-       // top: 40%;
+        top: 30%;
         //left: 7%;
         font-size: 2.5rem;
         color: #00000f;
